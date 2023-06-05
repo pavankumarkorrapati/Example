@@ -1,0 +1,29 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "<p>This is a Note Taking website<br></p> <p>Technologies used: <br></p> <ol>   <li>HTML</li>   <li>NodeJs</li>   <li>JavaScript</li>   <li>CSS</li> </ol> <br> <ul> <p>This is Home Page</p> </ul>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavankumarkorrapati/Assignment3.git"
+  },
+  "author": "Pavan kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavankumarkorrapati/Assignment3/issues"
+  },
+  "homepage": "https://github.com/pavankumarkorrapati/Assignment3#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .back1 img{
+             width: 200px;
+             height: 200px;
+             border-radius:60%;
+         }
+            body{
+             background-image:url("https://media.istockphoto.com/id/607913622/photo/manhattan-bridge-new-york-city.jpg?s=612x612&w=0&k=20&c=7S7XM9om8UwQ9K_Gik_fDKVokkXVHE4SgcuHnkKhXxI=");
+         }
+            .navigation{
+                background-color: white;
+                padding: 6px;
+            }
+     </style>
+</head>
+<body>
+    <div class="navigation">
+    <nav class="styling">
+        <img src="https://www.collegeconsensus.com/wp-content/uploads/2019/08/SUNY-New-Paltz-logo-from-website.jpg" alt="logo" width="100px">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">register</a>
+        <a href="note.html">Add Notes</a>
+    </nav> 
+    </div>
+   <div class="back1">
+         <img src="https://yt3.ggpht.com/ytc/AMLnZu-xo00R8tS5UbG80IIGPLG5eLlM3bPDtBnomIHN=s900-c-k-c0x00ffffff-no-rj" alt="logo">
+         <h2>Sign-up below!</h2>
+         <main>
+          <form id="register">
+            <label>First name:</label>
+            <input type="text" id="fname" name="firstname" required><br>
+            <label>Last name:</label>
+            <input type="text" id="lname" name="Lastname" required><br>
+            <label>user name:</label>
+            <input type="text" id="email" name="username" required><br>
+           <label>password:</label>
+           <input type="password" name="password" id="password"><br>
+           <a href="login.html">Already Have an Account? Sign-in</a><br>
+           <input type="submit" value="register"/>
+            <input type="reset" value="reset">
+          </form>
+          </main>
+    
+    </div>
+    <script type="module" src="./script/user.js"></script>
+    <script type="module" src="./script/main.js"></script>
+</body>
+</html>
